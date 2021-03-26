@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+	color: white;
+  }
+
+body::-webkit-scrollbar {
+	width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+	background: #c33764;
+	border-radius:0.25rem;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url(quicksandfont.ttf);
+  }
+
+body {
+background: linear-gradient(to right, #c33764, #1d2671);
+color: white;
+font-family: Quicksand;
+}
+
+/* Top Navigation Area */
+
+header {
+	display:flex;
+	justify-content: space-between;
+	padding: 30px 10px;
+}
+h1 {
+	margin: 0px 0px 0px 10px;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+	padding: 0px 20px;
+	margin-right: auto;
+}
+
+/* Intro, Profile Pic and Intro Area */
+
+#profilepic img{
+	display: block;
+	float: center;
+	border-radius: 100px;
+	width: 150px;
+	clear: both;
+	margin: 50px auto 25px auto;
+	filter: drop-shadow(0 0 0.75rem #dd1f58);
+}
+
+#intro {
+	margin: 10%;
+    padding-bottom: 10%;
+    transition: ease-in;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	margin:75px 300px 75px 300px;
+}
+#intro button {
+	background: linear-gradient(to right, #c33764, #1d2671);
+	font-family: Quicksand, serif;
+	font-size: 18px;
+	border: none;
+	color: white;
+	position: relative;
+	border-radius: 8px;
+	margin: 20px 20px 100px 20px;
+	padding: 15px 32px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+#intro button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* All Section Headings */
+
+h2 {
+	text-align: center;
+}
+
+/* What I Do Section */
+
+#whatido {
+	margin: 10%;
+    padding-bottom: 10%;
+    transition: ease-in;
+}
+#whatido {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	margin:75px 300px 75px 300px;
+}
+#whatido button {
+	background: linear-gradient(to right, #c33764, #1d2671);
+	font-family: Quicksand, serif;
+	font-size: 18px;
+	border: none;
+	color: white;
+	position: relative;
+	border-radius: 8px;
+	margin: 20px 20px 50px 20px;
+	padding: 15px 32px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+#whatido button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Contact Me Section */
+
+#contactme  {
+	margin: 10%;
+    padding-bottom: 2%;
+    transition: ease-in;
+}
+#contactme {
+	font-family: Quicksand, serif;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	margin:75px 300px 100px 300px;
+}
+
+/* Links to Social Media */
+
+#socialarea {
+	text-align: center;
+	margin: 150px 100px 200px 100px;
+}
+#socialarea img {
+	max-width: 100%; height: auto;
+}
+#gmaillink {
+	padding: 0px;
+	border-radius: 50%;
+	background-color: #ff748c;
+	border: none;
+	cursor:pointer;
+}
+
+/* Scroll to Top Button */
+
+#scrolltotop button {
+	position: fixed;
+	margin: 50px;
+	bottom: 25px;
+	background: linear-gradient(to left, #c33764, #1d2671);
+	float: right;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	padding: 10px 10px;
+	cursor: pointer;
+	transition-duration:0.4s;
+}	
+#scrolltotop button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+footer {
+   position: fixed;
+   bottom:0;
+   width:100%;
+   background: linear-gradient(to left, #c33764, #1d2671);
+   border: none;
+   border-radius: 60px;
+   text-align: center;
+   letter-spacing: 2px;
+   font-family: Quicksand, serif;
+} 
+
+/* Adjust Screen: Tablet Landscape */
+
+@media (min-width:658px) and (max-width:1000px) {
+	#intro, #whatido, #contactme {
+		text-align: center;
+		margin: 50px;
+		font-size: 25px;
+	}
+
+}
+
+@media (min-width:360px) and (max-width:658px) {
+	#navbar {
+		font-size: 10px;
+	}
+	#intro, #whatido, #contactme {
+		font-size: 15px;
+		margin: 5px 15px 10px 15px;		
+	}
+	#scrolltotop button {
+		display: none;
+	}
+	ul li {
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
