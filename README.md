@@ -1,5 +1,5 @@
 # My-Personal-Website
-<div class="text-blue bg-white mb-2">
-  ujjwalshiva.github.io
-</div>
+<style>H1{color:Blue;}</style>
+<style>H2{color:DarkOrange;}</style>
+<style>p{color:Black;}</style>
 ujjwalshiva.github.io
