@@ -1,2 +1,2 @@
-# My-Personal-Website
+# My Personal Website
 [ujjwalshiva.github.io](https://ujjwalshiva.github.io)
