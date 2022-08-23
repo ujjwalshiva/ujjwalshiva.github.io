@@ -1,4 +1,4 @@
 # My Personal Website
 ## [ujjwalshiva.github.io](https://ujjwalshiva.github.io)
 
-My Personal Website built on HTML and CSS
+My Personal Website built using HTML and CSS based on Tailwind Framework
