@@ -14,3 +14,19 @@
 p {
   letter-spacing: 0.3px;
 }
+@font-face {
+  font-family: Google Sans;
+  src: url('GoogleSans-Regular.ttf') format("truetype");
+}
+
+* {
+  font-family: Google Sans;
+}
+
+.get_in_touch {
+  transition: 0.2s;
+}
+
+p {
+  letter-spacing: 0.3px;
+}
